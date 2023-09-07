@@ -1,5 +1,52 @@
 .border{
     margin:15px ;
     padding: 10px;
+    border-radius: 5px;
     
 }
+.desktop-navigation-menu { display: block; }
+
+  .desktop-menu-category-list {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-decoration: none;
+    margin-top: 5px;
+    list-style-type: none;
+   
+  }
+
+ 
+
+  .desktop-menu-category-list .menu-category > .menu-title {
+    position: relative;
+    color: Black;
+    font-size: 1.1rem;
+    font-weight: var(--weight-600);
+    text-transform: uppercase;
+    padding: 10px;
+    transition: 0.2s ease;
+    text-decoration: none;
+    
+   
+  
+  }
+
+  .desktop-menu-category-list .menu-category > .menu-title:hover { color:hsl(353, 100%, 78%); }
+  
+  .desktop-menu-category-list .menu-category > .menu-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: hsl(353, 100%, 78%);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.2s ease;
+  }
+
+  .desktop-menu-category-list .menu-category > .menu-title:hover::after { transform: scaleX(1); }
