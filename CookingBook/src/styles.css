@@ -1,3 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import '~@fortawesome/fontawesome-free/css/all.min.css';
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+
+body{
+    background-color: #eff2f6 !important;
+}
+.bachground-grey{
+    background-color: #eff2f6 !important;
+}
