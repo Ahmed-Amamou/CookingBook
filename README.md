@@ -6,11 +6,10 @@ This is a simple website that displays recipes of various dishes. Users can brow
 ## Table of Contents
 
 - [Features](#features)
-- [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 
@@ -18,9 +17,7 @@ This is a simple website that displays recipes of various dishes. Users can brow
 - View detailed information for each recipe.
 - [Add more features if applicable]
 
-## Demo
 
-You can see a live demo of the website [here](https://example.com).
 
 ## Installation
 
