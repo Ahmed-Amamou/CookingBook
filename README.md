@@ -1,5 +1,4 @@
 # CookingBook
-# CookingBook
 # Recipe Website
 
 This is a simple website that displays recipes of various dishes. Users can browse through the list of recipes and view detailed information for each recipe.
